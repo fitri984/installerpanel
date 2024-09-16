@@ -1,8 +1,8 @@
 # Theme
-JANGAN DIJUAL BELAKAN YE BWANG !!!
-BUTUH LICENSE/PW CHAT TELE GUA
->> t.me/neroxkira <<
+JANGAN DIJUAL BELIKAN YE BWANG !!!
+BUTUH LICENSE/PW CHAT WA GUA
+>> 0858-1001-84053 <<
 
 Comand Run Install Thema
 
-bash <(curl https://raw.githubusercontent.com/neroxkira/nerox0817/main/install.sh)
+bash <(curl https://raw.githubusercontent.com/fitri984/installerpanel/main/install.sh)
