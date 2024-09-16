@@ -58,14 +58,14 @@ check_token() {
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   echo -e "${BLUE}BUY TOKEN DLU SANA SAMA KAYZEN :${NC}"
-  echo -e "${BLUE}WHATSAPP :${NC}"
-  echo -e "${BLUE}0858-1001-8405 ${NC}"
+  echo -e "${RED}WHATSAPP :${NC}"
+  echo -e "${GREEN}0858-1001-8405 ${NC}"
   read -r USER_TOKEN
 
   if [ "$USER_TOKEN" = "kayzen" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
-    echo -e "${GREEN}AKSES GAGAL${NC}"
+    echo -e "${RED}AKSES GAGAL${NC}"
     exit 1
   fi
   clear
