@@ -57,8 +57,8 @@ check_token() {
   echo -e "${BLUE}[+]               LICENSY KAYZEN                    [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
-  echo -e "${BLUE}BUY TOKEN DLU SANA SAMA KAYZEN${NC}"
-  echo -e "${RED}WHATSAPP :${NC}"
+  echo -e "${RED}BUY TOKEN DLU SANA SAMA KAYZEN${NC}"
+  echo -e "${BLUE}WHATSAPP : ⬇️${NC}"
   echo -e "${GREEN}0858-1001-8405 ${NC}"
   echo -e "${YELLOW}MASUKAN TOKEN BOSKU${NC}"
   read -r USER_TOKEN
