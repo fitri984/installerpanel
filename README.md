@@ -4,5 +4,6 @@ BUTUH LICENSE/PW CHAT WA GUA
 >> 0858-1001-84053 <<
 
 Comand Run Install Thema
-
+```bash
 bash <(curl https://raw.githubusercontent.com/fitri984/installerpanel/main/install.sh)
+```
