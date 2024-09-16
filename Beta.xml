@@ -1,0 +1,973 @@
+<?xml version='1.0' encoding='UTF-8' ?><!--
+Created by Alight Motion (http://alightmotion.com)
+Exported: 2024-03-13 06:59 PM
+5.0.0.102367 (102367)
+6f0d47a (25 Mei 2023 23.14.20)
+-->
+<scene title="Beta" width="1080" height="1080" exportWidth="1080" exportHeight="1080" precompose="dynamicResolution" bgcolor="#ff000000" totalTime="13999" fps="60" modifiedTime="1710331154955" amver="102367" ffver="106" am="com.alightcreative.motion/5.0.0.102367" amplatform="android" retime="freeze" retimeAdaptFPS="false">
+  <media uri="content://media/external/audio/media/1000393902" filename="7259715415377595137.mp3" title="7259715415377595137.mp3" type="audio/mpeg" duration="16117500" size="258370" infoUpdated="1710331142368" />
+  <media uri="content://media/external/video/media/1000393795" filename="TWIXTOR BETA 4K 60FPS.mp4" title="TWIXTOR BETA 4K 60FPS.mp4" type="video/mp4" duration="70379622" size="10669137" fps="0.30" orientation="0" infoUpdated="1710331142368" width="1280" height="720" />
+  <bookmark t="1725" />
+  <bookmark t="2691" />
+  <bookmark t="3008" />
+  <bookmark t="4175" />
+  <bookmark t="4675" />
+  <bookmark t="5675" />
+  <bookmark t="6358" />
+  <bookmark t="7041" />
+  <bookmark t="8091" />
+  <bookmark t="8458" />
+  <bookmark t="9458" />
+  <bookmark t="10141" />
+  <bookmark t="11191" />
+  <bookmark t="11858" />
+  <bookmark t="12541" />
+  <audio id="10027042" label="7259715415377595137.mp3" startTime="0" endTime="13999" src="content://media/external/audio/media/1000393902" outTime="13999" mediaFillMode="fill" />
+  <shape id="10027043" label="TWIXTOR BETA 4K 60FPS.mp4" startTime="0" endTime="1732" fillType="media" fillVideo="content://media/external/video/media/1000393795" outTime="1732" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="363.500000,540.000000,0.000000" />
+      <scale value="1.779242,1.779242" />
+    </transform>
+    <effect id="com.alightcreative.effects.satvib" locallyApplied="true">
+      <property name="saturation" type="float">
+        <kf t="0.000000" v="-1.000000" />
+        <kf t="0.774249" v="-1.000000" />
+        <kf t="1.000000" v="0.000000" />
+      </property>
+      <property name="vib" type="float" value="1.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.gaussianblur" locallyApplied="true">
+      <property name="strength" type="float">
+        <kf t="0.000000" v="0.150000" />
+        <kf t="0.774249" v="0.150000" />
+        <kf t="1.000000" v="0.000000" />
+      </property>
+    </effect>
+    <gain value="0.000000" />
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="10027076" label="TWIXTOR BETA 4K 60FPS.mp4" startTime="1716" endTime="2699" fillType="media" fillVideo="content://media/external/video/media/1000393795" inTime="1716" outTime="2699" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="363.500000,540.000000,0.000000" />
+      <scale value="1.779242,1.779242" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="false">
+      <property name="mirror" type="bool" value="true" />
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="false">
+      <property name="tune" type="float" value="1.000000" />
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate3" hidden="true" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="freq" type="float" value="0.450000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="50.000000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 0.13148789 0.58 1.0" />
+      </property>
+      <property name="direction" type="int" value="0" />
+      <property name="type" type="int" value="0" />
+      <property name="phase" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="false">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.420000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.dblur" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="strength" type="float">
+        <kf t="0.000000" v="0.120000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+    </effect>
+    <effect id="com.alightcreative.effects.randomdisplace" hidden="true" locallyApplied="false">
+      <property name="evolution" type="float">
+        <kf t="0.000000" v="0.000000" />
+        <kf t="1.000000" v="2.780000" />
+      </property>
+      <property name="mag" type="float" value="11.000000" />
+      <property name="seed" type="float" value="0.000000" />
+      <property name="scatter" type="float" value="0.500000" />
+    </effect>
+    <effect id="com.alightcreative.effects.streaks" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="strength" type="float">
+        <kf t="0.000000" v="0.100000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+      <property name="alpha" type="float" value="1.000000" />
+      <property name="bias" type="float" value="0.000000" />
+      <property name="rmode" type="int" value="1" />
+      <property name="gmode" type="int" value="1" />
+      <property name="bmode" type="int" value="1" />
+      <property name="amode" type="int" value="1" />
+    </effect>
+    <effect id="com.alightcreative.effects.transform" locallyApplied="false">
+      <property name="scale" type="float">
+        <kf t="0.000000" v="1.000000" />
+        <kf t="0.497925" v="3.000000" e="cubicBezier 0.0 0.0 0.0 1.0" />
+        <kf t="0.997925" v="0.010000" e="cubicBezier 1.0 0.0 1.0 0.46470588" />
+      </property>
+      <property name="angle" type="float" value="0.000000" />
+      <property name="maskToLayer" type="bool" value="false" />
+      <property name="alpha" type="float">
+        <kf t="0.000000" v="1.000000" />
+        <kf t="0.997925" v="0.000000" />
+      </property>
+      <property name="fill" type="float" value="1.000000" />
+      <property name="sample" type="int" value="1" />
+    </effect>
+    <gain value="0.000000" />
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="10027068" label="TWIXTOR BETA 4K 60FPS.mp4" startTime="2683" endTime="3015" fillType="media" fillVideo="content://media/external/video/media/1000393795" inTime="55916" outTime="56248" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="363.500000,540.000000,0.000000" />
+      <scale value="1.779242,1.779242" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="false">
+      <property name="mirror" type="bool" value="true" />
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="false">
+      <property name="tune" type="float" value="1.000000" />
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate3" hidden="true" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="freq" type="float" value="0.450000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="50.000000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 0.13148789 0.58 1.0" />
+      </property>
+      <property name="direction" type="int" value="0" />
+      <property name="type" type="int" value="0" />
+      <property name="phase" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="false">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.420000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.dblur" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="strength" type="float">
+        <kf t="0.000000" v="0.120000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+    </effect>
+    <effect id="com.alightcreative.effects.randomdisplace" hidden="true" locallyApplied="false">
+      <property name="evolution" type="float">
+        <kf t="0.000000" v="0.000000" />
+        <kf t="1.000000" v="2.780000" />
+      </property>
+      <property name="mag" type="float" value="11.000000" />
+      <property name="seed" type="float" value="0.000000" />
+      <property name="scatter" type="float" value="0.500000" />
+    </effect>
+    <effect id="com.alightcreative.effects.streaks" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="strength" type="float">
+        <kf t="0.000000" v="0.100000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+      <property name="alpha" type="float" value="1.000000" />
+      <property name="bias" type="float" value="0.000000" />
+      <property name="rmode" type="int" value="1" />
+      <property name="gmode" type="int" value="1" />
+      <property name="bmode" type="int" value="1" />
+      <property name="amode" type="int" value="1" />
+    </effect>
+    <gain value="0.000000" />
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="10027048" label="TWIXTOR BETA 4K 60FPS.mp4" startTime="3000" endTime="4182" fillType="media" fillVideo="content://media/external/video/media/1000393795" inTime="5566" outTime="6748" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale value="1.779242,1.779242" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="false">
+      <property name="mirror" type="bool" value="true" />
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="false">
+      <property name="tune" type="float" value="1.000000" />
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate3" hidden="true" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="freq" type="float" value="0.450000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="50.000000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 0.13148789 0.58 1.0" />
+      </property>
+      <property name="direction" type="int" value="0" />
+      <property name="type" type="int" value="0" />
+      <property name="phase" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="false">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.420000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.dblur" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="strength" type="float">
+        <kf t="0.000000" v="0.120000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+    </effect>
+    <effect id="com.alightcreative.effects.randomdisplace" hidden="true" locallyApplied="false">
+      <property name="evolution" type="float">
+        <kf t="0.000000" v="0.000000" />
+        <kf t="1.000000" v="2.780000" />
+      </property>
+      <property name="mag" type="float" value="11.000000" />
+      <property name="seed" type="float" value="0.000000" />
+      <property name="scatter" type="float" value="0.500000" />
+    </effect>
+    <effect id="com.alightcreative.effects.streaks" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="strength" type="float">
+        <kf t="0.000000" v="0.100000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+      <property name="alpha" type="float" value="1.000000" />
+      <property name="bias" type="float" value="0.000000" />
+      <property name="rmode" type="int" value="1" />
+      <property name="gmode" type="int" value="1" />
+      <property name="bmode" type="int" value="1" />
+      <property name="amode" type="int" value="1" />
+    </effect>
+    <gain value="0.000000" />
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="10027049" label="TWIXTOR BETA 4K 60FPS.mp4" startTime="4166" endTime="4682" fillType="media" fillVideo="content://media/external/video/media/1000393795" inTime="15300" outTime="15816" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale value="1.779242,1.779242" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="false">
+      <property name="mirror" type="bool" value="true" />
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="false">
+      <property name="tune" type="float" value="1.000000" />
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate3" hidden="true" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="freq" type="float" value="0.450000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="50.000000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 0.13148789 0.58 1.0" />
+      </property>
+      <property name="direction" type="int" value="0" />
+      <property name="type" type="int" value="0" />
+      <property name="phase" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="false">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.420000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.dblur" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="strength" type="float">
+        <kf t="0.000000" v="0.120000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+    </effect>
+    <effect id="com.alightcreative.effects.randomdisplace" hidden="true" locallyApplied="false">
+      <property name="evolution" type="float">
+        <kf t="0.000000" v="0.000000" />
+        <kf t="1.000000" v="2.780000" />
+      </property>
+      <property name="mag" type="float" value="11.000000" />
+      <property name="seed" type="float" value="0.000000" />
+      <property name="scatter" type="float" value="0.500000" />
+    </effect>
+    <effect id="com.alightcreative.effects.streaks" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="strength" type="float">
+        <kf t="0.000000" v="0.100000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+      <property name="alpha" type="float" value="1.000000" />
+      <property name="bias" type="float" value="0.000000" />
+      <property name="rmode" type="int" value="1" />
+      <property name="gmode" type="int" value="1" />
+      <property name="bmode" type="int" value="1" />
+      <property name="amode" type="int" value="1" />
+    </effect>
+    <gain value="0.000000" />
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="10027051" label="TWIXTOR BETA 4K 60FPS.mp4" startTime="4666" endTime="5682" fillType="media" fillVideo="content://media/external/video/media/1000393795" inTime="33832" outTime="34848" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="742.000000,540.000000,0.000000" />
+      <scale value="1.779242,1.779242" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="false">
+      <property name="mirror" type="bool" value="true" />
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="false">
+      <property name="tune" type="float" value="1.000000" />
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate3" hidden="true" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="freq" type="float" value="0.450000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="50.000000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 0.13148789 0.58 1.0" />
+      </property>
+      <property name="direction" type="int" value="0" />
+      <property name="type" type="int" value="0" />
+      <property name="phase" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="false">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.420000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.dblur" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="strength" type="float">
+        <kf t="0.000000" v="0.120000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+    </effect>
+    <effect id="com.alightcreative.effects.randomdisplace" hidden="true" locallyApplied="false">
+      <property name="evolution" type="float">
+        <kf t="0.000000" v="0.000000" />
+        <kf t="1.000000" v="2.780000" />
+      </property>
+      <property name="mag" type="float" value="11.000000" />
+      <property name="seed" type="float" value="0.000000" />
+      <property name="scatter" type="float" value="0.500000" />
+    </effect>
+    <effect id="com.alightcreative.effects.streaks" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="strength" type="float">
+        <kf t="0.000000" v="0.100000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+      <property name="alpha" type="float" value="1.000000" />
+      <property name="bias" type="float" value="0.000000" />
+      <property name="rmode" type="int" value="1" />
+      <property name="gmode" type="int" value="1" />
+      <property name="bmode" type="int" value="1" />
+      <property name="amode" type="int" value="1" />
+    </effect>
+    <gain value="0.000000" />
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <embedScene id="10027064" label="Group 1" startTime="5666" endTime="7049" fillType="intrinsic" mediaFillMode="fill">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <pivot value="-267.000000,0.000000" />
+    </transform>
+    <fillColor value="#ff000000" />
+    <scene title="" width="1080" height="1084" exportWidth="1080" exportHeight="1084" precompose="dynamicResolution" bgcolor="#00000000" totalTime="1383" fps="60" modifiedTime="0" amver="102367" ffver="106" am="com.alightcreative.motion/5.0.0.102367" amplatform="android" retime="off" retimeAdaptFPS="false">
+      <shape id="10027054" label="TWIXTOR BETA 4K 60FPS.mp4" startTime="0" endTime="1383" fillType="media" fillVideo="content://media/external/video/media/1000393795" inTime="30799" outTime="32182" mediaFillMode="fill" s=".rect">
+        <transform>
+          <location value="669.730042,542.000000,0.000000" />
+          <scale value="1.779242,1.779242" />
+        </transform>
+        <gain value="0.000000" />
+        <property name="size" type="vec2" value="540.000000,303.500000" />
+      </shape>
+      <shape id="10027056" label="Persegi panjang 2" startTime="0" endTime="1383" fillType="color" blending="mask" mediaFillMode="fill" s=".rect">
+        <transform>
+          <location value="273.000000,542.000000,0.000000" />
+        </transform>
+        <fillColor value="#ff6c3f89" />
+        <property name="size" type="vec2" value="264.000000,542.000000" />
+      </shape>
+    </scene>
+  </embedScene>
+  <embedScene id="10027065" label="Group 2" startTime="6350" endTime="7049" fillType="intrinsic" inTime="684" mediaFillMode="fill">
+    <transform>
+      <location value="540.000000,542.000000,0.000000" />
+      <pivot value="267.000000,0.000000" />
+    </transform>
+    <fillColor value="#ff000000" />
+    <scene title="" width="1080" height="1084" exportWidth="1080" exportHeight="1084" precompose="dynamicResolution" bgcolor="#00000000" totalTime="1383" fps="60" modifiedTime="0" amver="102367" ffver="106" am="com.alightcreative.motion/5.0.0.102367" amplatform="android" retime="off" retimeAdaptFPS="false">
+      <shape id="10027062" label="TWIXTOR BETA 4K 60FPS.mp4 Copy" startTime="0" endTime="1383" fillType="media" fillVideo="content://media/external/video/media/1000393795" inTime="30799" outTime="32182" mediaFillMode="fill" s=".rect">
+        <transform>
+          <location value="1210.229980,540.000000,0.000000" />
+          <scale value="1.779242,1.779242" />
+        </transform>
+        <gain value="0.000000" />
+        <property name="size" type="vec2" value="540.000000,303.500000" />
+      </shape>
+      <shape id="10027058" label="Persegi panjang 2 Copy" startTime="0" endTime="1383" fillType="color" blending="mask" mediaFillMode="fill" s=".rect">
+        <transform>
+          <location value="807.000000,542.000000,0.000000" />
+        </transform>
+        <fillColor value="#ff6c3f89" />
+        <property name="size" type="vec2" value="264.000000,542.000000" />
+      </shape>
+    </scene>
+  </embedScene>
+  <shape id="10027067" label="TWIXTOR BETA 4K 60FPS.mp4" startTime="7033" endTime="8099" fillType="media" fillVideo="content://media/external/video/media/1000393795" inTime="51749" outTime="52815" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="398.000000,540.000000,0.000000" />
+      <scale value="1.779242,1.779242" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="false">
+      <property name="mirror" type="bool" value="true" />
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="false">
+      <property name="tune" type="float" value="1.000000" />
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate3" hidden="true" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="freq" type="float" value="0.450000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="50.000000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 0.13148789 0.58 1.0" />
+      </property>
+      <property name="direction" type="int" value="0" />
+      <property name="type" type="int" value="0" />
+      <property name="phase" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="false">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.420000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.dblur" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="strength" type="float">
+        <kf t="0.000000" v="0.120000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+    </effect>
+    <effect id="com.alightcreative.effects.randomdisplace" hidden="true" locallyApplied="false">
+      <property name="evolution" type="float">
+        <kf t="0.000000" v="0.000000" />
+        <kf t="1.000000" v="2.780000" />
+      </property>
+      <property name="mag" type="float" value="11.000000" />
+      <property name="seed" type="float" value="0.000000" />
+      <property name="scatter" type="float" value="0.500000" />
+    </effect>
+    <effect id="com.alightcreative.effects.streaks" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="strength" type="float">
+        <kf t="0.000000" v="0.100000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+      <property name="alpha" type="float" value="1.000000" />
+      <property name="bias" type="float" value="0.000000" />
+      <property name="rmode" type="int" value="1" />
+      <property name="gmode" type="int" value="1" />
+      <property name="bmode" type="int" value="1" />
+      <property name="amode" type="int" value="1" />
+    </effect>
+    <effect id="com.alightcreative.effects.transform" locallyApplied="false">
+      <property name="scale" type="float">
+        <kf t="0.000000" v="1.000000" />
+        <kf t="0.497925" v="3.000000" e="cubicBezier 0.0 0.0 0.0 1.0" />
+        <kf t="0.997925" v="0.010000" e="cubicBezier 1.0 0.0 1.0 0.46470588" />
+      </property>
+      <property name="angle" type="float" value="0.000000" />
+      <property name="maskToLayer" type="bool" value="false" />
+      <property name="alpha" type="float">
+        <kf t="0.000000" v="1.000000" />
+        <kf t="0.997925" v="0.000000" />
+      </property>
+      <property name="fill" type="float" value="1.000000" />
+      <property name="sample" type="int" value="1" />
+    </effect>
+    <gain value="0.000000" />
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="10027070" label="TWIXTOR BETA 4K 60FPS.mp4 Copy" startTime="8083" endTime="8465" fillType="media" fillVideo="content://media/external/video/media/1000393795" inTime="55866" outTime="56248" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="363.500000,540.000000,0.000000" />
+      <scale value="1.779242,1.779242" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="false">
+      <property name="mirror" type="bool" value="true" />
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="false">
+      <property name="tune" type="float" value="1.000000" />
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate3" hidden="true" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="freq" type="float" value="0.450000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="50.000000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 0.13148789 0.58 1.0" />
+      </property>
+      <property name="direction" type="int" value="0" />
+      <property name="type" type="int" value="0" />
+      <property name="phase" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="false">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.420000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.dblur" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="strength" type="float">
+        <kf t="0.000000" v="0.120000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+    </effect>
+    <effect id="com.alightcreative.effects.randomdisplace" hidden="true" locallyApplied="false">
+      <property name="evolution" type="float">
+        <kf t="0.000000" v="0.000000" />
+        <kf t="1.000000" v="2.780000" />
+      </property>
+      <property name="mag" type="float" value="11.000000" />
+      <property name="seed" type="float" value="0.000000" />
+      <property name="scatter" type="float" value="0.500000" />
+    </effect>
+    <effect id="com.alightcreative.effects.streaks" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="strength" type="float">
+        <kf t="0.000000" v="0.100000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+      <property name="alpha" type="float" value="1.000000" />
+      <property name="bias" type="float" value="0.000000" />
+      <property name="rmode" type="int" value="1" />
+      <property name="gmode" type="int" value="1" />
+      <property name="bmode" type="int" value="1" />
+      <property name="amode" type="int" value="1" />
+    </effect>
+    <gain value="0.000000" />
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="10027071" label="TWIXTOR BETA 4K 60FPS.mp4 Copy 2" startTime="8450" endTime="9465" fillType="media" fillVideo="content://media/external/video/media/1000393795" inTime="5733" outTime="6748" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale value="1.779242,1.779242" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="false">
+      <property name="mirror" type="bool" value="true" />
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="false">
+      <property name="tune" type="float" value="1.000000" />
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate3" hidden="true" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="freq" type="float" value="0.450000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="50.000000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 0.13148789 0.58 1.0" />
+      </property>
+      <property name="direction" type="int" value="0" />
+      <property name="type" type="int" value="0" />
+      <property name="phase" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="false">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.420000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.dblur" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="strength" type="float">
+        <kf t="0.000000" v="0.120000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+    </effect>
+    <effect id="com.alightcreative.effects.randomdisplace" hidden="true" locallyApplied="false">
+      <property name="evolution" type="float">
+        <kf t="0.000000" v="0.000000" />
+        <kf t="1.000000" v="2.780000" />
+      </property>
+      <property name="mag" type="float" value="11.000000" />
+      <property name="seed" type="float" value="0.000000" />
+      <property name="scatter" type="float" value="0.500000" />
+    </effect>
+    <effect id="com.alightcreative.effects.streaks" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="strength" type="float">
+        <kf t="0.000000" v="0.100000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+      <property name="alpha" type="float" value="1.000000" />
+      <property name="bias" type="float" value="0.000000" />
+      <property name="rmode" type="int" value="1" />
+      <property name="gmode" type="int" value="1" />
+      <property name="bmode" type="int" value="1" />
+      <property name="amode" type="int" value="1" />
+    </effect>
+    <gain value="0.000000" />
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="10027072" label="TWIXTOR BETA 4K 60FPS.mp4 Copy 3" startTime="9450" endTime="10149" fillType="media" fillVideo="content://media/external/video/media/1000393795" inTime="15117" outTime="15816" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale value="1.779242,1.779242" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="false">
+      <property name="mirror" type="bool" value="true" />
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="false">
+      <property name="tune" type="float" value="1.000000" />
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate3" hidden="true" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="freq" type="float" value="0.450000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="50.000000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 0.13148789 0.58 1.0" />
+      </property>
+      <property name="direction" type="int" value="0" />
+      <property name="type" type="int" value="0" />
+      <property name="phase" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="false">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.420000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.dblur" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="strength" type="float">
+        <kf t="0.000000" v="0.120000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+    </effect>
+    <effect id="com.alightcreative.effects.randomdisplace" hidden="true" locallyApplied="false">
+      <property name="evolution" type="float">
+        <kf t="0.000000" v="0.000000" />
+        <kf t="1.000000" v="2.780000" />
+      </property>
+      <property name="mag" type="float" value="11.000000" />
+      <property name="seed" type="float" value="0.000000" />
+      <property name="scatter" type="float" value="0.500000" />
+    </effect>
+    <effect id="com.alightcreative.effects.streaks" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="strength" type="float">
+        <kf t="0.000000" v="0.100000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+      <property name="alpha" type="float" value="1.000000" />
+      <property name="bias" type="float" value="0.000000" />
+      <property name="rmode" type="int" value="1" />
+      <property name="gmode" type="int" value="1" />
+      <property name="bmode" type="int" value="1" />
+      <property name="amode" type="int" value="1" />
+    </effect>
+    <gain value="0.000000" />
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="10027073" label="TWIXTOR BETA 4K 60FPS.mp4 Copy 4" startTime="10133" endTime="11199" fillType="media" fillVideo="content://media/external/video/media/1000393795" inTime="33832" outTime="34898" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="742.000000,540.000000,0.000000" />
+      <scale value="1.779242,1.779242" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="false">
+      <property name="mirror" type="bool" value="true" />
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="false">
+      <property name="tune" type="float" value="1.000000" />
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate3" hidden="true" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="freq" type="float" value="0.450000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="50.000000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 0.13148789 0.58 1.0" />
+      </property>
+      <property name="direction" type="int" value="0" />
+      <property name="type" type="int" value="0" />
+      <property name="phase" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="false">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.420000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.dblur" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="strength" type="float">
+        <kf t="0.000000" v="0.120000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+    </effect>
+    <effect id="com.alightcreative.effects.randomdisplace" hidden="true" locallyApplied="false">
+      <property name="evolution" type="float">
+        <kf t="0.000000" v="0.000000" />
+        <kf t="1.000000" v="2.780000" />
+      </property>
+      <property name="mag" type="float" value="11.000000" />
+      <property name="seed" type="float" value="0.000000" />
+      <property name="scatter" type="float" value="0.500000" />
+    </effect>
+    <effect id="com.alightcreative.effects.streaks" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="strength" type="float">
+        <kf t="0.000000" v="0.100000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+      <property name="alpha" type="float" value="1.000000" />
+      <property name="bias" type="float" value="0.000000" />
+      <property name="rmode" type="int" value="1" />
+      <property name="gmode" type="int" value="1" />
+      <property name="bmode" type="int" value="1" />
+      <property name="amode" type="int" value="1" />
+    </effect>
+    <gain value="0.000000" />
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <embedScene id="10027074" label="Group 1 Copy" startTime="11183" endTime="12549" fillType="intrinsic" outTime="1366" mediaFillMode="fill">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <pivot value="-267.000000,0.000000" />
+    </transform>
+    <fillColor value="#ff000000" />
+    <scene title="" width="1080" height="1084" exportWidth="1080" exportHeight="1084" precompose="dynamicResolution" bgcolor="#00000000" totalTime="1383" fps="60" modifiedTime="0" amver="102367" ffver="106" am="com.alightcreative.motion/5.0.0.102367" amplatform="android" retime="off" retimeAdaptFPS="false">
+      <shape id="10027054" label="TWIXTOR BETA 4K 60FPS.mp4" startTime="0" endTime="1383" fillType="media" fillVideo="content://media/external/video/media/1000393795" inTime="30799" outTime="32182" mediaFillMode="fill" s=".rect">
+        <transform>
+          <location value="669.730042,542.000000,0.000000" />
+          <scale value="1.779242,1.779242" />
+        </transform>
+        <gain value="0.000000" />
+        <property name="size" type="vec2" value="540.000000,303.500000" />
+      </shape>
+      <shape id="10027056" label="Persegi panjang 2" startTime="0" endTime="1383" fillType="color" blending="mask" mediaFillMode="fill" s=".rect">
+        <transform>
+          <location value="273.000000,542.000000,0.000000" />
+        </transform>
+        <fillColor value="#ff6c3f89" />
+        <property name="size" type="vec2" value="264.000000,542.000000" />
+      </shape>
+    </scene>
+  </embedScene>
+  <embedScene id="10027075" label="Group 2 Copy" startTime="11850" endTime="12549" fillType="intrinsic" inTime="684" mediaFillMode="fill">
+    <transform>
+      <location value="540.000000,542.000000,0.000000" />
+      <pivot value="267.000000,0.000000" />
+    </transform>
+    <fillColor value="#ff000000" />
+    <scene title="" width="1080" height="1084" exportWidth="1080" exportHeight="1084" precompose="dynamicResolution" bgcolor="#00000000" totalTime="1383" fps="60" modifiedTime="0" amver="102367" ffver="106" am="com.alightcreative.motion/5.0.0.102367" amplatform="android" retime="off" retimeAdaptFPS="false">
+      <shape id="10027062" label="TWIXTOR BETA 4K 60FPS.mp4 Copy" startTime="0" endTime="1383" fillType="media" fillVideo="content://media/external/video/media/1000393795" inTime="30799" outTime="32182" mediaFillMode="fill" s=".rect">
+        <transform>
+          <location value="1210.229980,540.000000,0.000000" />
+          <scale value="1.779242,1.779242" />
+        </transform>
+        <gain value="0.000000" />
+        <property name="size" type="vec2" value="540.000000,303.500000" />
+      </shape>
+      <shape id="10027058" label="Persegi panjang 2 Copy" startTime="0" endTime="1383" fillType="color" blending="mask" mediaFillMode="fill" s=".rect">
+        <transform>
+          <location value="807.000000,542.000000,0.000000" />
+        </transform>
+        <fillColor value="#ff6c3f89" />
+        <property name="size" type="vec2" value="264.000000,542.000000" />
+      </shape>
+    </scene>
+  </embedScene>
+  <shape id="10027084" label="Persegi panjang 2" startTime="11850" endTime="13999" fillType="color" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale value="5.545000,5.545000" />
+      <opacity>
+        <kf t="0.000000" v="0.000000" />
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.321545" v="1.000000" />
+      </opacity>
+    </transform>
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+  </shape>
+  <shape id="10027079" label="Persegi panjang 1" startTime="0" endTime="13999" fillType="color" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale value="5.555000,5.555000" />
+    </transform>
+    <fillColor value="#ff58dfad" />
+    <effect id="com.alightcreative.effects.lift" locallyApplied="false">
+      <property name="fill" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.channelmap" hidden="true" locallyApplied="false">
+      <property name="red" type="int" value="0" />
+      <property name="green" type="int" value="4" />
+      <property name="blue" type="int" value="4" />
+      <property name="alpha" type="int" value="3" />
+    </effect>
+    <effect id="com.alightcreative.gradientoverlay2" locallyApplied="false">
+      <property name="color1" type="color" value="#ffffffff" />
+      <property name="color2" type="color" value="#ff000000" />
+      <property name="angle" type="float" value="0.000000" />
+      <property name="scale" type="float" value="1.000000" />
+      <property name="alpha" type="float" value="0.750000" />
+      <property name="gradType" type="int" value="0" />
+      <property name="blendMode" type="int" value="1" />
+    </effect>
+    <effect id="com.alightcreative.effects.threshold" locallyApplied="false">
+      <property name="threshold" type="float" value="0.100000" />
+      <property name="feather" type="float" value="0.320000" />
+      <property name="invert" type="bool" value="false" />
+      <property name="blendMode" type="int" value="1" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="false">
+      <property name="exposure" type="float" value="0.400000" />
+      <property name="gamma" type="float" value="0.940000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.sharpen" locallyApplied="false">
+      <property name="strength" type="float" value="0.450000" />
+      <property name="radius" type="float" value="1.000000" />
+    </effect>
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+  </shape>
+  <shape id="10027082" label="Persegi panjang 1 Copy 2" startTime="0" endTime="13999" fillType="color" blending="soft-overlay" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale value="5.555000,5.555000" />
+      <opacity value="0.748047" />
+    </transform>
+    <fillColor value="#ffa749e8" />
+    <effect id="com.alightcreative.effects.lift" locallyApplied="false">
+      <property name="fill" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.sharpen" locallyApplied="false">
+      <property name="strength" type="float" value="0.260000" />
+      <property name="radius" type="float" value="1.000000" />
+    </effect>
+    <effect id="com.alightcreative.replacecolor" locallyApplied="false">
+      <property name="feather" type="float" value="0.530000" />
+      <property name="newcolor" type="color" value="#ff444444" />
+      <property name="oldcolor" type="color" value="#ff445826" />
+      <property name="threshold" type="float" value="0.240000" />
+      <property name="alpha" type="float" value="1.000000" />
+      <property name="lockLuminance" type="bool" value="false" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="false">
+      <property name="gamma" type="float" value="0.630000" />
+      <property name="exposure" type="float" value="0.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.vignette" locallyApplied="false">
+      <property name="feather" type="float" value="1.000000" />
+      <property name="roundness" type="float" value="0.480000" />
+      <property name="scale" type="float" value="1.218000" />
+      <property name="strength" type="float" value="0.800000" />
+      <property name="tint" type="float" value="0.200000" />
+      <property name="overlaycolor" type="color" value="#ff000000" />
+      <property name="punchout" type="bool" value="false" />
+    </effect>
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+  </shape>
+  <shape id="10027080" label="Persegi panjang 1 Copy" startTime="0" endTime="13999" fillType="gradient" blending="screen" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale value="5.400000,5.400000" />
+      <opacity value="0.500000" />
+    </transform>
+    <fillColor value="#ff97d074" />
+    <gradient type="linear" startColor="#ff888888" endColor="#ff000000" start="0.474718,0.007385" end="0.472288,0.957918" />
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+  </shape>
+  <text id="10027083" startTime="0" endTime="13999" fillType="color" blending="overlay" mediaFillMode="fill" size="18.000000" font="imported?name=Bobaland.ttf" wrapWidth="512" align="left">
+    <transform>
+      <location value="705.125000,852.000000,0.000000" />
+    </transform>
+    <shadow direction="outside" />
+    <content>Darkinn</content>
+  </text>
+</scene>

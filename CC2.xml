@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' ?><!--
+Created by Alight Motion (http://alightmotion.com)
+Exported: 2022-11-09 07:09 PM
+4.2.0 (0592)
+bc88f32 (20 Jun 2022 15.36.58)
+-->
+<scene title="CC2" width="1080" height="1920" exportWidth="1080" exportHeight="1920" precompose="dynamicResolution" bgcolor="#ff000000" totalTime="18299" fps="60" modifiedTime="1667995770940" amver="592" ffver="105" am="com.alightcreative.motion/4.2.0" amplatform="android" retime="freeze" retimeAdaptFPS="false">
+  <shape id="6211177" label="CC2" startTime="0" endTime="18299" fillType="color" s=".rect">
+    <transform>
+      <location value="1080.000000,1920.000000,0.000000" />
+      <scale value="10.800000,19.200001" />
+    </transform>
+    <fillColor value="#ff768894" />
+    <effect id="com.alightcreative.effects.lift" locallyApplied="false">
+      <property name="fill" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="false">
+      <property name="exposure" type="float" value="0.600000" />
+      <property name="gamma" type="float" value="0.720000" />
+      <property name="offset" type="float" value="-0.100000" />
+    </effect>
+    <effect id="com.alightcreative.effects.brightcont2" locallyApplied="false">
+      <property name="brightness" type="float" value="0.100000" />
+      <property name="contrast" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.replacecolor" locallyApplied="false">
+      <property name="feather" type="float" value="1.840000" />
+      <property name="lockLuminance" type="bool" value="true" />
+      <property name="newcolor" type="color" value="#ff888888" />
+      <property name="oldcolor" type="color" value="#ff17e1e1" />
+      <property name="threshold" type="float" value="2.400000" />
+      <property name="alpha" type="float" value="1.000000" />
+    </effect>
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+  </shape>
+</scene>
