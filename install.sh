@@ -57,19 +57,19 @@ check_token() {
   echo -e "${BLUE}[+]               LICENSY KAYZEN                    [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
-  echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
+  echo -e "${BLUE}BUY TOKEN DLU SANA SAMA KAYZEN :${NC}"
+  echo -e "${BLUE}WHATSAPP :${NC}"
+  echo -e "${BLUE}0858-1001-8405 ${NC}"
   read -r USER_TOKEN
 
   if [ "$USER_TOKEN" = "kayzen" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
-    echo -e "${GREEN}BUY TOKEN DULU SANA SAMA KAYZEN${NC}"
-    echo -e "${YELLOW}WHATSAPP :${NC}"    
-    echo -e "${YELLOW}0858-1001-84053${NC}"
+    echo -e "${GREEN}AKSES GAGAL${NC}"
     exit 1
   fi
   clear
-}
+} 
 
 # Install theme
 install_theme() {
