@@ -10,12 +10,12 @@ NC='\033[0m'
 # Display welcome message
 display_welcome() {
   echo -e ""
-  echo -e "${BLUE}[+] =============================================== [+]${NC}"
+  echo -e "${RED}[+] ================================================ [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${BLUE}[+]                AUTO INSTALLER THEMA             [+]${NC}"
-  echo -e "${BLUE}[+]                  © KAYZEN                      [+]${NC}"
+  echo -e "${BLUE}[+]                  © KAYZEN                       [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
-  echo -e "${RED}[+] =============================================== [+]${NC}"
+  echo -e "${RED}[+] ================================================ [+]${NC}"
   echo -e ""
   echo -e "script ini di buat untuk mempermudah penginstalasian thema pterodactyle,"
   echo -e "dilarang keras untuk memperjual belikan."
@@ -30,14 +30,14 @@ display_welcome() {
 install_jq() {
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]             UPDATE & INSTALL JQ                   [+]${NC}"
+  echo -e "${BLUE}[+]             UPDATE & INSTALL JQ                 [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   sudo apt update && sudo apt install -y jq
   if [ $? -eq 0 ]; then
     echo -e "                                                       "
     echo -e "${GREEN}[+] =============================================== [+]${NC}"
-    echo -e "${GREEN}[+]                  INSTALL JQ BERHASIL                [+]${NC}"
+    echo -e "${GREEN}[+]                  INSTALL JQ BERHASIL            [+]${NC}"
     echo -e "${GREEN}[+] =============================================== [+]${NC}"
   else
     echo -e "                                                       "
@@ -54,13 +54,13 @@ install_jq() {
 check_token() {
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]               LICENSY KAYZEN                  [+]${NC}"
+  echo -e "${BLUE}[+]               LICENSY KAYZEN                    [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" = "kayzen" ]; then
+  if [ "$USER_TOKEN" = "kayzeninstal" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
     echo -e "${GREEN}BUY TOKEN DULU SANA SAMA KAYZEN${NC}"
@@ -76,7 +76,7 @@ install_theme() {
   while true; do
     echo -e "                                                       "
     echo -e "${BLUE}[+] =============================================== [+]${NC}"
-    echo -e "${BLUE}[+]             SILAHKAN PILIH THEME BOSKU                 [+]${NC}"
+    echo -e "${BLUE}[+]          SILAHKAN PILIH THEME BOSKU             [+]${NC}"
     echo -e "${BLUE}[+] =============================================== [+]${NC}"
     echo -e "                                                       "
     echo -e "PILIH THEME YANG INGIN DI INSTALL"
@@ -88,7 +88,7 @@ install_theme() {
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
-        THEME_URL=$(echo -e "https://github.com/gitfdil1248/thema/raw/main/C2.zip")
+        THEME_URL=$(echo -e "https://github.com/fitri984/Tess/raw/main/C2.zip")
         break
         ;;
       2)
@@ -96,7 +96,7 @@ install_theme() {
         break
         ;;
       3)
-        THEME_URL=$(echo -e "https://github.com/gitfdil1248/thema/raw/main/C3.zip")
+        THEME_URL=$(echo -e "https://github.com/fitri984/Tess/raw/main/C3.zip")
         break
         ;; 
       x)
@@ -134,7 +134,7 @@ if [ "$SELECT_THEME" -eq 1 ]; then
 
   echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
-  echo -e "${GREEN}[+]             INSTALL SUCCESS BOSKU                  [+]${NC}"
+  echo -e "${GREEN}[+]             INSTALL SUCCESS BOSKU               [+]${NC}"
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
   echo -e ""
   sleep 2
@@ -144,7 +144,7 @@ if [ "$SELECT_THEME" -eq 1 ]; then
 elif [ "$SELECT_THEME" -eq 2 ]; then
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]            INSTALLASI THEMA BOSKU                  [+]${NC}"
+  echo -e "${BLUE}[+]            INSTALLASI THEMA BOSKU               [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   sudo cp -rfT /root/pterodactyl /var/www/pterodactyl
@@ -162,7 +162,7 @@ elif [ "$SELECT_THEME" -eq 2 ]; then
 
   echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
-  echo -e "${GREEN}[+]              INSTALL SUCCESS BOSKU                 [+]${NC}"
+  echo -e "${GREEN}[+]              INSTALL SUCCESS BOSKU              [+]${NC}"
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   sleep 2
@@ -172,7 +172,7 @@ elif [ "$SELECT_THEME" -eq 2 ]; then
 elif [ "$SELECT_THEME" -eq 3 ]; then
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]               INSTALLASI THEMA BOSKU               [+]${NC}"
+  echo -e "${BLUE}[+]               INSTALLASI THEMA BOSKU            [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                                   "
 
@@ -204,7 +204,7 @@ elif [ "$SELECT_THEME" -eq 3 ]; then
 
   echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
-  echo -e "${GREEN}[+]                INSTALL SUCCESS BOSKU               [+]${NC}"
+  echo -e "${GREEN}[+]                INSTALL SUCCESS BOSKU            [+]${NC}"
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
   echo -e ""
   sleep 5
@@ -219,13 +219,13 @@ fi
 uninstall_theme() {
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]                DELETE THEME BOSKU                  [+]${NC}"
+  echo -e "${BLUE}[+]                DELETE THEME BOSKU               [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   bash <(curl https://raw.githubusercontent.com/gitfdil1248/thema/main/repair.sh)
   echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
-  echo -e "${GREEN}[+]           DELETE THEME SUKSES BOSKU            [+]${NC}"
+  echo -e "${GREEN}[+]           DELETE THEME SUKSES BOSKU             [+]${NC}"
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   sleep 2
@@ -267,7 +267,7 @@ sudo rm -rf /root/pterodactyl
 
 echo -e "                                                       "
 echo -e "${GREEN}[+] =============================================== [+]${NC}"
-echo -e "${GREEN}[+]              INSTALL SUCCESS BOSKU               [+]${NC}"
+echo -e "${GREEN}[+]              INSTALL SUCCESS BOSKU              [+]${NC}"
 echo -e "${GREEN}[+] =============================================== [+]${NC}"
 echo -e ""
 sleep 2
@@ -278,7 +278,7 @@ exit 0
 create_node() {
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]             CREATE NODE BOSKU                    [+]${NC}"
+  echo -e "${BLUE}[+]             CREATE NODE BOSKU                   [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   #!/bin/bash
@@ -324,7 +324,7 @@ EOF
 
   echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
-  echo -e "${GREEN}[+]      CREATE NODE & LOCATION SUKSES BOSKU    [+]${NC}"
+  echo -e "${GREEN}[+]      CREATE NODE & LOCATION SUKSES BOSKU        [+]${NC}"
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   sleep 2
@@ -349,7 +349,7 @@ EOF
 
   echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
-  echo -e "${GREEN}[+]        UNINSTALL PANEL SUKSES BOSKU            [+]${NC}"
+  echo -e "${GREEN}[+]         UNINSTALL PANEL SUKSES BOSKU            [+]${NC}"
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   sleep 2
@@ -373,7 +373,7 @@ sudo systemctl start wings
 
   echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
-  echo -e "${GREEN}[+]       CONFIGURE WINGS SUKSES BOSKU            [+]${NC}"
+  echo -e "${GREEN}[+]         CONFIGURE WINGS SUKSES BOSKU            [+]${NC}"
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   sleep 2
@@ -383,7 +383,7 @@ sudo systemctl start wings
 hackback_panel() {
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]          HACK BACK PANEL BOSKU                 [+]${NC}"
+  echo -e "${BLUE}[+]           HACK BACK PANEL BOSKU                 [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   # Minta input dari pengguna
@@ -413,7 +413,7 @@ EOF
 ubahpw_vps() {
   echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
-  echo -e "${GREEN}[+]                  UBAH PASSWORD VPS BOSKU      [+]${NC}"
+  echo -e "${GREEN}[+]             UBAH PASSWORD VPS BOSKU             [+]${NC}"
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
 read -p "Masukkan Pw Baru: " pw
@@ -428,7 +428,7 @@ EOF
 
   echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
-  echo -e "${GREEN}[+]                 GANTI PW VPS SUKSES         [+]${NC}"
+  echo -e "${GREEN}[+]              GANTI PW VPS SUKSES                [+]${NC}"
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   sleep 2
