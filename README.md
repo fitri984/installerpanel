@@ -5,5 +5,5 @@ BUTUH LICENSE/PW CHAT WA GUA
 
 Comand Run Install Thema
 ```bash
-bash <(curl hh)
+bash <(curl https://raw.githubusercontent.com/fitri984/installerpanel/main/install.sh)
 ```
