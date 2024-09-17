@@ -97,7 +97,7 @@ install_theme() {
         break
         ;;
       3)
-        THEME_URL=$(echo -e "https://github.com/fitri984/Tess/raw/main/C3.zip")
+        THEME_URL=$(echo -e "https://github.com/fitri984/installerpanel/raw/main/C3.zip")
         break
         ;; 
       x)
