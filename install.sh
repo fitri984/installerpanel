@@ -89,7 +89,7 @@ install_theme() {
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
-        THEME_URL=$(echo -e "https://github.com/fitri984/Tess/raw/main/C2.zip")
+        THEME_URL=$(echo -e "https://github.com/fitri984/installerpanel/raw/main/C2.zip")
         break
         ;;
       2)
