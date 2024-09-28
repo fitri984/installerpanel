@@ -5,7 +5,7 @@
 </p>
 <h1 align="center">KAYZEN BOTZ</h1>
 
-# Theme
+# Insta Panel & Theme
 JANGAN DIJUAL BELIKAN YE BWANG !!!
 BUTUH LICENSE/PW CHAT WA GUA
 >> 0858-1001-84053 <<
