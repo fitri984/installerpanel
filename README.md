@@ -1,4 +1,5 @@
-![Hellow Github](https://github.com/fitri984/Tes/blob/master/lib/thumb/finix444.jpg)
+!![Hellow Github](https://github.com/fitri984/Installpanel/blob/main/finix444.jpg)
+
 
 # Insta Panel & Theme
 JANGAN DIJUAL BELIKAN YE BWANG !!!
